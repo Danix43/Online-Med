@@ -1,0 +1,10 @@
+.accent-button {
+    border: none;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.accent-button:hover {
+    cursor: pointer;
+}
