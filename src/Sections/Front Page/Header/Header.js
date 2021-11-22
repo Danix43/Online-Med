@@ -1,11 +1,13 @@
 import React from 'react'
 
 import './Header.css';
-import logo from '../Imgs/logo.png';
-import NormalButton from './NormalButton';
-import AccentButton from './AccentButton';
 
-import colors from '../themeConfig';
+import logo from '../../../Imgs/logo.png';
+
+import colors from '../../../themeConfig';
+
+import NormalButton from '../../../Components/NormalButton/NormalButton';
+import AccentButton from '../../../Components/AccentButton/AccentButton';
 
 function Header() {
     return (
