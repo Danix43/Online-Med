@@ -1,4 +1,21 @@
 .list-item-root {
     text-align: center;
 
+    background-color: white;
+    border-radius: 30px;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    box-shadow: 0px 4px 4px 0px rgba(00, 00, 00, .25);
+}
+
+.list-item-root > p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    padding-left: 7rem;
+    padding-right: 7rem; 
+
+    font-size: 2rem;
 }
