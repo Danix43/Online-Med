@@ -1,13 +1,15 @@
 import './App.css';
-import Content from './Sections/Front Page/Content/Content';
-import Header from './Sections/Front Page/Header/Header';
+
+import Homepage from './Pages/Pacient/Homepage/Homepage';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* landing page */}
+      {/* <FrontPage /> */}
 
-      <Content />
+      {/* Homepage Pacient */}
+      <Homepage />
     </div>
   );
 }

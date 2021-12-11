@@ -1,0 +1,57 @@
+.homepage-container {
+    display: flex;
+
+    flex-direction: column;
+
+    margin-left: 10rem;
+
+    align-items: center;
+
+    gap: 3rem;
+
+}
+
+.tip-panel {
+    border-radius: 30px;
+    border: 5px solid#40c4ff; 
+
+    margin-top: 3rem;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: #f2f2f2;
+}
+
+.tip-title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.tip {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+.reminder-table {
+    background-color: #f2f2f2;
+
+    padding-top: 1rem;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    border-radius: 30px;
+}
+
+.reminder-table > tr > th {
+    font-size: 2rem;
+}
+
