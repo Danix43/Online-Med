@@ -1,0 +1,70 @@
+.doctors-container {
+    margin-left: 18rem;
+}
+
+.tip-panel {
+    border-radius: 30px;
+    border: 5px solid#40c4ff; 
+
+    margin-top: 3rem;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: #f2f2f2;
+
+    box-shadow: 0px 4px 4px 0px rgba(00, 00, 00, .25);
+}
+
+.tip-title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.tip {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+.doctors-list-root {
+    margin-top: 3rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.doctor-item-root {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.doctor-img {
+    margin-top: 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.doctor-item-root > p {
+    font-weight: bold;
+}
+
+.doctor-name {
+    margin: 0;
+}
+
+.doctor-speciality {
+    margin-bottom: .5rem;
+}

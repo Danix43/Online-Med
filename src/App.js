@@ -1,6 +1,6 @@
 import './App.css';
 import Sidebar from './Components/Sidebar/Sidebar';
-import Billing from './Pages/Pacient/Billing/Billing';
+import Doctors from './Pages/Pacient/Doctors/Doctors';
 import Homepage from './Pages/Pacient/Homepage/Homepage';
 
 function App() {
@@ -11,13 +11,12 @@ function App() {
       {/* landing page */}
       {/* <FrontPage /> */}
 
-      {/* Homepage Pacient */}
+      {/* Pacient Side */}
       {/* <Homepage /> */}
-
-      {/* Appointments Pacient */}
       {/* <Appointments /> */}
+      {/* <Billing /> */}
+      <Doctors />
 
-      <Billing />
 
     </div>
   );

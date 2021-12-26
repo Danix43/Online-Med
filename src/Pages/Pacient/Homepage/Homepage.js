@@ -6,6 +6,7 @@ import './Homepage.css'
 function Homepage() {
     return (
         <div className='homepage-container'>
+            {/* TODO:change tip panel div to component */}
             <div className="tip-panel">
                 <h1 className='tip-title'>Tip</h1>
                 <p className='tip'>You can book an appointment with a doctor anytime! Check the Appointments tab!</p>
