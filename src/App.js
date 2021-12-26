@@ -1,6 +1,7 @@
 import './App.css';
 import Sidebar from './Components/Sidebar/Sidebar';
-import Appointments from './Pages/Pacient/Appointments/Appointments';
+import Billing from './Pages/Pacient/Billing/Billing';
+import Homepage from './Pages/Pacient/Homepage/Homepage';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       {/* <Homepage /> */}
 
       {/* Appointments Pacient */}
-      <Appointments />
+      {/* <Appointments /> */}
+
+      <Billing />
 
     </div>
   );
